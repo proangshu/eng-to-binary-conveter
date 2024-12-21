@@ -1,0 +1,69 @@
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #21a001;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 30%;
+    padding: 1px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    resize: none;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #66ff00;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #87e45c;
+}
+
+#binaryOutput {
+    margin-top: 20px;
+    font-size: 16px;
+    word-wrap: break-word;
+    background-color: #e0e0e0;
+    padding: 1px;
+    border-radius: 5px;
+    overflow-y: auto;
+    height: 40%;
+    width: 100%;
+    white-space: pre-wrap;
+    text-align: left;
+}
